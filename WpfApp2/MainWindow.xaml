@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Практическая работа 1 ПиТ" Height="409" Width="380">
+    <Grid Margin="7,15,2,0" Height="419" VerticalAlignment="Top">
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="27,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged">
+            <TextBox.ToolTip>
+                <ToolTip>Введите значение x</ToolTip>
+            </TextBox.ToolTip>
+        </TextBox>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="213,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged">
+            <TextBox.ToolTip>
+                <ToolTip>Введите значение y</ToolTip>
+            </TextBox.ToolTip>
+        </TextBox>
+        <Label Content="Введите значение x" HorizontalAlignment="Left" Margin="27,89,0,0" VerticalAlignment="Top" Height="30" Width="120"/>
+        <Label Content="Введите значение y" HorizontalAlignment="Left" Margin="213,89,0,0" VerticalAlignment="Top" Height="30" Width="120"/>
+        <Button x:Name="button1" Content="Вычислить" HorizontalAlignment="Left" Margin="30,246,0,0" VerticalAlignment="Top" Click="Button_Click" Width="117" Height="18"/>
+        <Button Content="Очистить выражения" HorizontalAlignment="Left" Margin="116,304,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="136"/>
+        <RadioButton x:Name="sh" Content="sh(x)" HorizontalAlignment="Left" Margin="33,179,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton x:Name="epsilon" Content="e^x" HorizontalAlignment="Left" Margin="33,199,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <RadioButton x:Name="square" Content="x^2" HorizontalAlignment="Left" Margin="33,219,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <Label Content="Ответ (a):" HorizontalAlignment="Left" Margin="154,240,0,0" VerticalAlignment="Top" Height="24" Width="60"/>
+        <TextBox x:Name="answer" IsReadOnly="True" HorizontalAlignment="Left" Margin="213,246,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="answer_TextChanged">
+            <TextBox.ToolTip>
+                <ToolTip>Здесь должен быть ответ на уравнение</ToolTip>
+            </TextBox.ToolTip>
+        </TextBox>
+        <Label Content="Укажите, чему будет равно f(x)?" HorizontalAlignment="Left" Margin="27,142,0,0" VerticalAlignment="Top" Height="33" Width="208" RenderTransformOrigin="0.643,-2.811"/>
+        <Image Margin="70,0,62,334" Source="/Image3.png" Stretch="Fill"/>
+
     </Grid>
 </Window>

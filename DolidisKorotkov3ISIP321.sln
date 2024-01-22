@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{673F375E-178C-41E3-99EC-3B714BA109C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathApp1", "..\MathApp1\MathApp1\MathApp1.csproj", "{3D129C13-39C3-411A-9CC4-AA161775A54E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{673F375E-178C-41E3-99EC-3B714BA109C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673F375E-178C-41E3-99EC-3B714BA109C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673F375E-178C-41E3-99EC-3B714BA109C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D129C13-39C3-411A-9CC4-AA161775A54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D129C13-39C3-411A-9CC4-AA161775A54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D129C13-39C3-411A-9CC4-AA161775A54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D129C13-39C3-411A-9CC4-AA161775A54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
